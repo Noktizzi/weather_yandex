@@ -1,0 +1,17 @@
+{
+  "name": "weather-rf",
+  "version": "1.0.0",
+  "description": "Мониторинг погоды в РФ — учебный прототип",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
